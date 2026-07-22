@@ -1,0 +1,14 @@
+# 第三方依赖：rustdx 已是独立仓库，仅用到其中的 key.rs（已抽到根目录），不入库
+rustdx/
+
+# 生成的产物：可由 lday + gbbq 重跑管线完全重建，不入库
+data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志 / 临时输出
+*.log
+*.err
+stocks.csv
